@@ -3220,17 +3220,22 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
         int signalStyle = Settings.System.getIntForUser(resolver,
                 Settings.System.STATUS_BAR_SIGNAL_TEXT,
                 SignalClusterView.STYLE_NORMAL, mCurrentUserId);
+<<<<<<< HEAD
         if (MSimTelephonyManager.getDefault().isMultiSimEnabled()) {
             mMSimSignalClusterView.setStyle(signalStyle);
         } else {
             mSignalClusterView.setStyle(signalStyle);
             mSignalTextView.setStyle(signalStyle);
+=======
+        mSignalClusterView.setStyle(signalStyle);
+        mSignalTextView.setStyle(signalStyle);
 
         boolean useCenterClock = Settings.System.getInt(
                 resolver, Settings.System.STATUS_BAR_CENTER_CLOCK, 0) == 1;
         if (mUseCenterClock != useCenterClock) {
             mUseCenterClock = useCenterClock;
             recreateStatusBar();
+>>>>>>> Add center clock (1/2)
         }
     }
 
