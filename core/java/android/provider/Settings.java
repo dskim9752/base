@@ -3170,6 +3170,13 @@ public final class Settings {
         */
         public static final String NAVIGATION_BAR_WIDTH = "navigation_bar_width";
 
+        /**
+        *
+        * NavBar Toggle
+        * @hide
+        */
+        public static final String NAVIGATION_BAR_TOGGLE = "navigation_bar_toggle";
+
 	/**
 	* Statusbar Clock Color
 	* @hide
