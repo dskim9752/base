@@ -22,6 +22,7 @@
     <string name="weather_notify">알림</string>
     <string name="weather_ok">확인</string>
     <string name="weather_link">바로가기</string>
+    <string name="weather_dialog_msg">잠금시계위젯의 날씨패널이 꺼져있거나 날씨정보가 저장된 것 같지 않습니다.\n 날씨패널을 꾹 눌러 나오는 설정메뉴의 날씨패널에서 날씨설정을 활성화 해주세요.</string>
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">폭풍</string>

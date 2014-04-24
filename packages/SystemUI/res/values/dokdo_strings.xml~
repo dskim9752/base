@@ -46,6 +46,7 @@ wn on the screen). [CHAR LIMIT=NONE] -->
     <string name="weather_notify">Notification</string>
     <string name="weather_ok">OK</string>
     <string name="weather_link">Shortcut</string>
+    <string name="weather_dialog_msg">Your Phone maybe off Weather Panel in cLock or Not save Weather data file\nYou need Switch on Display Weather in Long press Weather quick tile > Clock widgets > Weather panel</string>
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">Tornado</string>
